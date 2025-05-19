@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Sornali_Akter</title>
+    <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+   ></link>
+  </head>
+  <body>
+    <div id="headrer">
+      <div class="container">
+        <nav>
+          <img src="images/s.png" class="logo" />
+          <ul id="sidemenu">
+            <li>
+              <a href="#header">Home </a>
+            </li>
+            <li>
+              <a href="#about">About </a>
+            </li>
+            <li>
+              <a href="#services">Services </a>
+            </li>
+            <li>
+              <a href="#portfolio">Protfolio </a>
+            </li>
+            <li>
+              <a href="#contact">Contact </a>
+            </li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>
+            Hi, I'm
+            <span> Sornali Akter </span>
+            <br />
+            From Bangladesh
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/aboutme.png"/>
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Hey! I’m a passionate Full Stack Developer with a love for
+              building things that matter.coding isn’t just about writing lines
+              of code — it’s about solving real problems, crafting smooth user
+              experiences, and constantly pushing the limits of what’s possible.
+              I take pride in creating clean, efficient, and meaningful digital
+              solutions. I believe the best developers are lifelong learners, so
+              I'm always exploring new technologies, sharpening my skills, and
+              staying curious. Outside of code, I’m a big fan of collaboration,
+              creative thinking, and bringing positive energy to any team I work
+              with.
+            </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link"  onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links"  onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contains active" id="skills">
+                <ul>
+                  <li>
+                    <span>
+                      Front-End Development :
+                     
+                    </span>
+                    HTML5, CSS3, JavaScript (ES6+), TypeScript
+                    Angular, React, Bootstrap
+                  </li>
+                  <li>
+                    <span>
+                      Back-End Development :
+                     
+                    </span>
+                    ASP.NET Core, ASP.NET MVC, C#
+                    RESTful APIs, Web API Development
+                  </li>
+
+                  <li>
+                    <span>
+                      Database Management :
+                    
+                    </span>
+                    SQL Server, Entity Framework
+                  </li>
+                  <li>
+                    <span>
+                      Mobile Development :
+                     
+                    </span>
+                    Cross-Platform App Development (.NET MAUI)
+                  </li>
+                  
+                  <li>
+                    <span>
+                      Version Control :
+                     
+                    </span>
+                    Git, GitHub
+                  </li>
+                  <li>
+                    <span>
+                      Unit Testing :
+                     
+                    </span>
+                    (NUnit, xUnit), Debugging, Postman for API Testing
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-contains" id="experience">
+               <p>
+                
+                Over the past year, I’ve been on an exciting journey into the world of full-stack development. Through the <span>IsDB-BISEW IT Scholarship Programme</span>, I completed 788 hours of intense, hands-on training that really shaped my skills and confidence as a developer.
+
+During this time, I built a variety of web applications — working with<span> HTML, CSS, JavaScript, Angular, and React</span> on the front-end, and <span>ASP.NET Core, C#, and SQL Server<span> on the back-end. I learned how to bring ideas to life from scratch, building everything from responsive user interfaces to strong, secure server-side systems.
+
+I also got my hands dirty with API development, cloud basics with Azure, and real-world tools like Git for version control. Working in team projects taught me a lot about communication, problem-solving, and how important collaboration is in building great software.
+
+Every project, every bug, and every late-night debugging session pushed me to learn, adapt, and think creatively.
+Now, I’m ready — and excited — to step into the professional world, keep learning, and create software that makes a real difference.
+               </p>
+              </div>
+
+              <div class="tab-contains" id="education" >
+
+               <ul>
+                <li>
+                  <span> IsDB-BISEW IT Scholarship Programme</span>
+                  Diploma in Enterprise Systems Analysis and Design (Full Stack Development)
+                  (Completed 788 hours of professional training)
+                  [2025]
+                </li>
+                <li>
+                  <span> Master of Science (MSc):</span>
+                  Major:Chemistry(Eden Mohila college)<br>
+                  Year of Completion: [2023]
+                </li>
+                <li>
+                  <span>Bachelor of Science (BSc):</span>
+                  Major:Chemistry(Eden Mohila college)<br>
+                  Year of Completion: [2022]
+                </li>
+                <li>
+                  <span> Higher Secondary Certificate (HSC):</span>
+                  
+                  <br>Bornamala Adarsha High School and College<br>
+                  Science Group<br>
+                  Year of Completion: [2017]<br>
+                  Board: Dhaka Education Board
+                </li>
+
+                <li>
+                  <span> Secondary School Certificate(SSC):</span>
+                  
+                  <br>Bornamala Adarsha High School and College<br>
+                  Science Group<br>
+                  Year of Completion: [2015]<br>
+                  Board: Dhaka Education Board
+                </li>
+               </ul>
+               </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+     <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>
+              Web Desinging
+            </h2>
+            <p>I craft responsive, visually engaging, and user-friendly websites that align with your brand identity and business goals. From layout to color schemes, every element is thoughtfully designed to create a seamless and intuitive user experience. Whether it’s a personal blog, a corporate site, or an e-commerce platform, I ensure your web presence is modern, functional, and impactful.</p>
+          <a href="https://github.com/Sornali-Sanu/Toyshop-ecommerce">Learn More
+
+          </a>
+          </div>
+
+          <div>
+            <i class="fas fa-crop-alt">
+
+            </i>
+            <h2>
+           App-Development
+            </h2>
+            <p>I design and develop modern, user-friendly mobile and desktop applications using .NET MAUI for the frontend and ASP.NET for powerful, scalable backends. My focus is on delivering seamless user experiences with intuitive UI design, responsive layouts, and smooth performance across platforms. Whether it's a customer-facing app or an internal business tool, I ensure the design is clean, functional, and connected to a secure, efficient ASP.NET-powered backend. From wireframes to full deployment, I cover the complete design and development lifecycle.</p>
+          <a href="https://github.com/Sornali-Sanu/customer-info-app">Learn More
+
+          </a>
+          </div>
+
+          <div>
+            <i class="fab fa-app-store">
+
+            </i>
+            <h2>
+              User Interface (UI) Design
+            </h2>
+            <p>
+              I specialize in creating visually engaging, intuitive, and responsive user interfaces for web and mobile applications. Using modern frameworks like Angular and React, along with .NET MAUI for cross-platform apps, I ensure seamless user experiences across devices. My designs focus on clarity, functionality, and consistency, ensuring that your app or website is not only beautiful but also easy to navigate. Whether you’re building a mobile app, a web platform, or an enterprise solution, I tailor each UI to meet both user needs and business goals, delivering interfaces that drive engagement and satisfaction.</p>
+          <a href="https://github.com/Sornali-Sanu">Learn More
+
+          </a>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <!-- portfolio -->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My work
+ 
+          </h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/toyShopBd.png" height="300px" 
+
+              />
+              <div class="layer">
+                <h3>
+                 Toy Shop -ecommerce
+                </h3>
+                <p>
+                  Toy Shop eCommerce is a full-featured online toy store platform developed to showcase and sell children's toys with an intuitive, responsive, and user-friendly interface. The website supports real-time chat, product browsing, cart management, and contact form integration.Key Functionality:
+
+                  🛒 Product Listing with images, prices, and details
+
+                  💬 Real-time Chat Support using Socket.IO
+
+                  📦 Add to Cart functionality
+
+                   📍 Google Maps Integration for store location
+
+                  📱 Fully Responsive Design with Bootstrap
+
+                  📨 Contact Form for customer inquiries
+
+                  💻 Dynamic Rendering using EJS and Express.js backend
+                </p>
+                <a href="https://github.com/Sornali-Sanu/Toyshop-ecommerce"><i class="fa-solid fa-up-right-from-square">
+                  Learn more
+                </i>
+                </i>
+
+                </a>
+              </div>
+            </div>
+              <div class="work">
+                <img src="images/mobileapp.jpg" height="300px" 
+                />
+                <div class="layer">
+                  <h3>
+                    Mobile app
+                  </h3>
+                  <p>
+                    CustomerInfo is a cross-platform mobile app developed using .NET MAUI that allows users to efficiently manage and view customer details. Designed for smooth performance on Android and iOS, the app features a clean interface for adding, updating, and organizing customer information in one convenient place
+                  </p>
+                  <a href="https://github.com/Sornali-Sanu/customer-info-app"><i class="fa-solid fa-up-right-from-square"></i>
+                  </i>
+  
+                  </a>
+                </div>
+              
+              
+              </div>
+                <div class="work">
+                  <img src="images/stuManagement.jpg" height="300px" 
+                  />
+                  <div class="layer">
+                    <h3>
+                      Mvc-work
+                    </h3>
+                    <p>
+                      A dynamic student management system built using ASP.NET MVC, Entity Framework, and jQuery AJAX. Features include student creation, course-module assignment, image uploads, and CRUD operations with a responsive UI. 
+                    </p>
+                    <a href="https://github.com/Sornali-Sanu/StudentModuleManager-MVC"><i class="fa-solid fa-up-right-from-square"></i>
+                    </i>
+    
+                    </a>
+                  </div>
+                
+                
+                </div>
+
+            </div>
+
+          </div>
+          <a href="https://github.com/Sornali-Sanu" class="btn">see More
+
+          </a>
+
+        </div>
+      </div>
+      <!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+<h1 class="sub-title"> Contact Me
+
+</h1>
+<p><i class="fas fa-envelope"></i>
+
+  Email:sornali.sanu@gmail.com
+</p>
+<p><i class="fas fa-phone"></i>
+
+  Phone No:01516782008
+</p>
+
+<p><i class="fab fa-github"></i>
+
+ GitHub:https://github.com/Sornali-Sanu
+</p>
+<br>
+<div class="social-icon">
+  <a href="#">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="#"><i class="fab fa-instagram"></i> </a>
+  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+ 
+
+
+
+
+</div>
+<a href="images/sornali_Akter.pdf" download class="btn btn2">Download Cv
+
+</a>
+      </div>
+      <div class="contact-right">
+<form name="submit-to-google-sheet">
+  <input type="text" name="Name" placeholder="Your Name" required/>
+  <input type="email" name="Email" placeholder="Your Email" required/>
+  <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+
+ 
+  <button type="submit" class="btn btn2">submit
+
+  </button>
+</form>
+<span id="msg"></span>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="copyright">
+    <p>
+      Copyright @ <i >Sornali.<i>
+    </p>
+  </div>
+</div>
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links")
+      var tabcontains=document.getElementsByClassName("tab-contains")
+
+      function opentab(tabname)
+      {
+        for (tablink of tablinks)
+      {
+        tablink.classList.remove("active-link")
+      }
+
+      for (tabcontain of tabcontains)
+      {
+        tabcontain.classList.remove("active")
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active")
+      }
+
+    </script>
+    <script>
+      var sidemenu=document.getElementById('sidemenu');
+      function openmenu()
+      {
+        sidemenu.style.right="0";
+      }
+      function closemenu()
+    {
+      sidemenu.style.right="-200px";
+    }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxqgBuxmHfZaP4VoiJHyfqCZQMYos5H8MgpEWvjcAkPL-QFP9L0ieAAqlQkJXnmYQJ4/exec'
+      const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById('msg')
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){msg.innerHTML=""},5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
+
